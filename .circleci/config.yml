@@ -36,7 +36,7 @@ jobs:
             name: Install Ansible
             command: |
               # Install Ansible
-              python -m pip install ansible
+              pip3 install ansible
         - run:
             name: Run Playbook and Configure server
             command: |
